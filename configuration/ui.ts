@@ -1,6 +1,6 @@
 import { AI_NAME, OWNER_NAME } from "@/configuration/identity";
 
-export const CHAT_HEADER: string = `Medical Specialist 2025`;
+export const CHAT_HEADER: string = `Medical Entrepreneur Specialist 2025`;
 export const MESSAGE_PLACEHOLDER: string = `[MESSAGE PLACEHOLDER]`;
 export const FOOTER_MESSAGE: string = `Customized AI by Enes @ UNC`;
 export const CLEAR_BUTTON_TEXT: string = `Clear Entire Chat`;
