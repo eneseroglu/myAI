@@ -152,7 +152,7 @@ export class ResponseModule {
       async start(controller) {
         queueIndicator({
           controller,
-          status: "Figuring out what your answer looks like",
+          status: "Thinking about answer...",
           icon: "thinking",
         });
         try {
@@ -164,7 +164,7 @@ export class ResponseModule {
             await embedHypotheticalData(hypotheticalData, providers.openai);
           queueIndicator({
             controller,
-            status: "Reading through documents",
+            status: "Reading documents...",
             icon: "searching",
           });
           const chunks: Chunk[] = await searchForChunksUsingEmbedding(
@@ -183,7 +183,7 @@ export class ResponseModule {
             RESPOND_TO_QUESTION_SYSTEM_PROMPT(contextFromSources);
           queueIndicator({
             controller,
-            status: "Coming up with an answer",
+            status: "Formulating answer...",
             icon: "thinking",
           });
           queueAssistantResponse({
