@@ -10,7 +10,6 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-  /* You could add other custom utilities here */
 }
 
 @layer base {
@@ -41,7 +40,6 @@ body {
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
-
   .dark {
     --background: 0 0% 3.9%;
     --foreground: 0 0% 98%;
@@ -69,24 +67,16 @@ body {
     --chart-5: 340 75% 55%;
   }
 }
+
 @layer base {
   * {
     @apply border-border;
   }
   body {
     @apply text-foreground;
-    background: linear-gradient(
-      135deg,
-      hsl(204, 70%, 92%),
-      hsl(283, 39%, 85%)
-    );
+    background: linear-gradient(135deg, hsl(204, 70%, 92%), hsl(283, 39%, 85%));
   }
-
   .dark body {
-    background: linear-gradient(
-      135deg,
-      hsl(220, 50%, 15%),
-      hsl(280, 40%, 20%)
-    );
+    background: linear-gradient(135deg, hsl(220, 50%, 15%), hsl(280, 40%, 20%));
   }
 }
