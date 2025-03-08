@@ -1,7 +1,4 @@
 # Read Me
-Create your own AI Assistant, powered by ringel.AI
 
-This repo makes it easy to configure and deploy your own AI Assistant using Vercel and Pinecone. 
-
-For documentation, contact Daniel Ringel and visit www.ringel.AI 
+An AI-Assistant that specializes in guiding medical professionals who want to start, manage, and sustain their own private practice. It provides expert insights on regulations, financial planning, operational management, legal considerations, and market strategy to empower physicians in an increasingly corporate-driven healthcare environment. All information has sources that are directly referenced in each AI-powered response.
 
