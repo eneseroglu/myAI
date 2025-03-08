@@ -173,7 +173,7 @@ export default function useApp() {
         // TODO: Find a better way to do this.
         setIndicatorState([
           {
-            status: "Understanding your message",
+            status: "Receiving message",
             icon: "understanding",
           },
         ]);
