@@ -50,13 +50,13 @@ body {
 
   .dark {
     --background: 0 0% 5%;
-    --foreground: 0 0% 95%;
+    --foreground: 0 0% 50%;
     --card: 0 0% 10%;
     --card-foreground: 0 0% 95%;
     --popover: 0 0% 10%;
     --popover-foreground: 0 0% 95%;
     --primary: 0 0% 95%;
-    --primary-foreground: 0 0% 10%;
+    --primary-foreground: 0 0% 30%;
     --secondary: 0 0% 20%;
     --secondary-foreground: 0 0% 95%;
     --muted: 0 0% 20%;
